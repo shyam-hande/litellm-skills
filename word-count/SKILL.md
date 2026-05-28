@@ -7,8 +7,6 @@ description: Count words in text using Python helper script
 
 When the user asks to count words:
 
-Use the Bash tool.
-
 Execute exactly this command:
 
 python3 word-count/scripts/count_words.py "$ARGUMENTS"
