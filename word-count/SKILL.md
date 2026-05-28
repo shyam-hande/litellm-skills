@@ -1,21 +1,21 @@
-# Word Counter Skill
-
 ---
 name: word-count
-description: counts the word in given prompt
+description: Count words in text using Python helper script
 ---
 
-Count words in user-provided text.
+# Word Count Skill
 
-Always execute this command:
+When the user asks to count words:
 
-```bash
-python3 scripts/count_words.py "<USER_TEXT>"
-```
+Use the Bash tool.
+
+Execute exactly this command:
+
+python3 ~/.claude/skills/word-count/scripts/count_words.py "$ARGUMENTS"
 
 Rules:
-- Always use the Python helper script
 - Never manually count words
+- Always pass full user text
 - Return only the script output
 
 Example:
