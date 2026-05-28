@@ -1,15 +1,15 @@
 ---
 name: word-count
-description: Count words in text using Python helper script
+description: Count words in provided text. Use when the user wants to count words, get word statistics, or measure text length.
 ---
 
-# Word Count Plugin
+# Word Count Skill
 
-Utility plugin for counting words in text.
+Counts words in given text using a Python helper.
 
-This plugin provides:
-- word counting
-- Python helper runtime
+## Usage
 
-use below python helper utility
-python3 scripts/count_words.py "$ARGUMENTS"
+Run the helper script with the text as arguments:
+
+```bash
+python3 scripts/count_words.py "<text to count>"

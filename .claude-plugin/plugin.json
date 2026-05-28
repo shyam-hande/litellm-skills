@@ -1,6 +1,8 @@
 {
-    "id": "my plugins",
     "name": "litellm-skills",
     "version": "1.0.0",
-    "description": "Reusable LiteLLM Claude skills"
-  }
+    "description": "Reusable LiteLLM Claude skills",
+    "author": {
+      "name": "your-name"
+    }
+}
