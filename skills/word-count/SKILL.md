@@ -9,7 +9,6 @@ Utility plugin for counting words in text.
 
 This plugin provides:
 - word counting
-- reusable slash command
 - Python helper runtime
 
 use below python helper utility
