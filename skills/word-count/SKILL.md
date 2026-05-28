@@ -1,12 +1,15 @@
 ---
 name: word-count
-description: Count words in the given text
-allowed-tools: Bash, Read
+description: Count words
+tools: Bash, Read
 ---
 
-Provide input prompt message as input to Run this python script and report the result:
+Use the Bash tool.
 
-use bash to execute and just execute it.
+The Bash tool REQUIRES a parameter named `command`.
 
-python3 ~/.claude/skills/word-count/scripts/count_words.py "$ARGUMENTS"
+Execute exactly:
 
+command: python3 ~/.claude/skills/word-count/scripts/count_words.py "$ARGUMENTS"
+
+Return only the script output.
