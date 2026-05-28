@@ -12,4 +12,4 @@ This plugin provides:
 - Python helper runtime
 
 use below python helper utility
-python3 scripts/word-count.py "$ARGUMENTS"
+python3 scripts/count_words.py "$ARGUMENTS"
