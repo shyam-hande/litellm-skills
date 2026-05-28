@@ -11,7 +11,7 @@ Use the Bash tool.
 
 Execute exactly this command:
 
-python3 ~/.claude/skills/word-count/scripts/count_words.py "$ARGUMENTS"
+python3 word-count/scripts/count_words.py "$ARGUMENTS"
 
 Rules:
 - Never manually count words
