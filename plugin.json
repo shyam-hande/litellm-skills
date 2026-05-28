@@ -1,0 +1,11 @@
+{
+    "name": "word-count",
+    "version": "1.0.0",
+    "description": "Count words using Python helper script",
+    "skills": [
+      "SKILL.md"
+    ],
+    "commands": [
+      "commands/word-count.md"
+    ]
+  }
