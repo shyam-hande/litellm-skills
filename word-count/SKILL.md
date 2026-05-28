@@ -1,5 +1,10 @@
 # Word Counter Skill
 
+---
+name: word-count
+description: counts the word in given prompt
+---
+
 Count words in user-provided text.
 
 Always execute this command:
