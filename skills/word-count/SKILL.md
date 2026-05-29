@@ -2,6 +2,9 @@
 name: word-count
 description: Count words in the given text
 allowed-tools: Bash, Read
+metadata:
+  author: shyam
+  version: "v1.0.0"
 ---
 
 Use the Bash tool.
