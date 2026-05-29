@@ -4,7 +4,7 @@ description: Count words in the given text
 allowed-tools: Bash, Read
 metadata:
   author: shyam
-  version: "v1.0.0"
+  version: "v1.0.1"
 ---
 
 Use the Bash tool.
